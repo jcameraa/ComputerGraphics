@@ -23,6 +23,7 @@
 
 // C++ Standard Libraries
 #include <iostream>
+#include <algorithm>
 
 // User libraries
 #include "GL.h"
@@ -64,32 +65,59 @@ void drawLine(Vec2 v0, Vec2 v1, TGA& image, ColorRGB c) {
 	}
 }
 
+int crossProduct(Vec2 v0, Vec2 v1) {
+	return ((v0.x * v1.y) + (v0.y * v1.x));
+
+}
+
+
 // Draw a triangle
 void triangle(Vec2 v0, Vec2 v1, Vec2 v2, TGA& image, ColorRGB c) {
+	int maxX = std::max(v0.x, std::max(v1.x, v2.x));
+	int maxY = std::max(v0.y, std::max(v1.y, v2.y));
+	int minX = std::min(v0.x, std::min(v1.x, v2.x));
+	int minY = std::min(v0.y, std::min(v1.y, v2.y));
+
+	
 	if (glFillMode == LINE) {
 		drawLine(v0, v1, image, c);
 		drawLine(v1, v2, image, c);
 		drawLine(v2, v0, image, c);
 	}
-	/*
+	
 	if (glFillMode == FILL) {
-		std::cout << "Being Filled!" << std::endl;
-		if (v1.y == v2.y) {
-			fillBottomFlatTriangle(v0, v1, v2, c);
-		}
-		else if (v0.y == v1.y) {
-			fillTopFlatTriangle(v0, v1, v2, c);
-		}
-		else {
-			Vec2 v3;
-			v3.x = 3;
-			v3.y = 6;
-			fillBottomFlatTriangle(v0, v1, v3, c);
-			fillTopFlatTriangle(v1, v3, v2, c);
-		}
 
+		Vec2 vs1; 
+		vs1.x = v1.x - v0.x;
+		vs1.y = v1.y - v0.y;
+
+		Vec2 vs2;
+		vs2.x = v2.x - v0.x;
+		vs2.y =  v2.y - v0.y;
+
+		for (int x = minX; x <= maxX; x++) {
+
+			for (int y = minY; y <= minY; x++) {
+
+				Vec2 q;
+
+				q.x = (x - v0.x);
+
+				q.y = (y - v0.y);
+
+				float s = (float)(crossProduct(q, vs1) /
+					(float)crossProduct(vs1, vs2));
+
+				float t = (float)(crossProduct(vs1, q) /
+					(float)crossProduct(vs1, vs2));
+
+				if ((s >= 0) && (t >= 0) && (s + t <= 1)) {
+					canvas.setPixelColor(x, y, c);
+				}
+			}
+		}
 	}
-	*/
+	
 }
 
 
@@ -107,7 +135,7 @@ int main() {
 	Vec2 line[2] = { Vec2(0,0), Vec2(100,100) };
 
 	// Set the fill mode
-	glPolygonMode(LINE);
+	glPolygonMode(FILL);
 
 	// Draw a line
 	drawLine(line[0], line[1], canvas, red);
@@ -124,59 +152,3 @@ int main() {
 
 	return 0;
 }
-void fillBottomFlatTriangle(Vec2 v0, Vec2 v1, Vec2 v2, ColorRGB c) {
-	float invSlope0 = ((v1.x - v1.x) / (v1.y - v0.y));
-
-	float invSlope1 = ((v2.x - v0.x) / (v2.y - v0.y));
-
-	float currX1 = v0.x;
-	float currX2 = v0.x;
-
-	for (int scaleY = v0.y; scaleY <= v1.y; scaleY++) {
-		Vec2 point1;
-		point1.x = currX1;
-		point1.y = scaleY;
-
-		Vec2 point2;
-		point2.x += currX2;
-		point2.y += scaleY;
-
-		drawLine(point1, point2, canvas, c);
-
-		currX1 += invSlope0;
-		currX2 += invSlope1;
-	}
-}
-
-void fillTopFlatTriangle(Vec2 v0, Vec2 v1, Vec2 v2, ColorRGB c) {
-	float invSlope0 = ((v2.x - v0.x) / (v2.y - v0.y));
-
-	float invSlope1 = ((v2.x - v1.x) / (v2.y - v1.y));
-
-	float currX1 = v2.x;
-	float currX2 = v2.x;
-
-	for (int scaleY = v2.y; scaleY <= v0.y; scaleY--) {
-		Vec2 point1;
-		point1.x = currX1;
-		point1.y = scaleY;
-
-		Vec2 point2;
-		point2.x -= currX2;
-		point2.y -= scaleY;
-
-		drawLine(point1, point2, canvas, c);
-
-		currX1 -= invSlope0;
-		currX2 -= invSlope1;
-	}
-
-
-}
-
-
-
-
-
-
-
