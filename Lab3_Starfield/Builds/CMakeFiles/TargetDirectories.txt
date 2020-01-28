@@ -1,0 +1,3 @@
+D:/GithubFiles/ComputerGraphics/Lab3_Starfield/Builds/CMakeFiles/Lab2.dir
+D:/GithubFiles/ComputerGraphics/Lab3_Starfield/Builds/CMakeFiles/ALL_BUILD.dir
+D:/GithubFiles/ComputerGraphics/Lab3_Starfield/Builds/CMakeFiles/ZERO_CHECK.dir

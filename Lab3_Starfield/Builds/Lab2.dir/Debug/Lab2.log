@@ -1,0 +1,6 @@
+﻿  Automatic MOC for target Lab2
+  StarList.cpp
+D:\GithubFiles\ComputerGraphics\Lab3_Starfield\StarList.cpp(5): warning C4018: '<': signed/unsigned mismatch
+D:\GithubFiles\ComputerGraphics\Lab3_Starfield\StarList.cpp(16): warning C4018: '>=': signed/unsigned mismatch
+D:\GithubFiles\ComputerGraphics\Lab3_Starfield\StarList.cpp(36): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Lab2.vcxproj -> D:\GithubFiles\ComputerGraphics\Lab3_Starfield\Builds\Debug\Lab2.exe

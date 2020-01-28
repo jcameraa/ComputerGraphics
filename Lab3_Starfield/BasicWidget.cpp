@@ -1,6 +1,7 @@
 #include "BasicWidget.h"
 
-BasicWidget::BasicWidget(QWidget* parent) : QWidget(parent), image_(QSize(800,600), QImage::Format_RGB888), stars_(2400, 1.0, 1.5)
+BasicWidget::BasicWidget(QWidget* parent) : QWidget(parent), image_(QSize(800,600), QImage::Format_RGB888), stars_(2400
+	, 1.0, 1.5)
 {
   backgroundColor_ = QColor(0, 0, 0, 0);
   image_.fill(QColor(0, 0, 0));
