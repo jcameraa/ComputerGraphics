@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/GithubFiles/ComputerGraphics/Assignment1_MathFoundations1/CMakeLists.txt
+  main.cpp
+d:\githubfiles\computergraphics\assignment1_mathfoundations1\include\matrix4f.h(99): warning C4700: uninitialized local variable 'mat4' used
+d:\githubfiles\computergraphics\assignment1_mathfoundations1\include\matrix4f.h(108): warning C4700: uninitialized local variable 'vec' used
+d:\githubfiles\computergraphics\assignment1_mathfoundations1\include\vector4f.h(108): warning C4700: uninitialized local variable 'vec' used
+  Assignment1.vcxproj -> D:\GithubFiles\ComputerGraphics\Assignment1_MathFoundations1\Builds\Debug\Assignment1.exe

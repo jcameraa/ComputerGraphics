@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Assignment1_MathFoundations1\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GithubFiles\ComputerGraphics\Assignment1_MathFoundations1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{170CC269-F319-395B-ACC7-EBE5D82DC43B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

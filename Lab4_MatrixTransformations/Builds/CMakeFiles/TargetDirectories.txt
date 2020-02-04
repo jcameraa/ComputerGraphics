@@ -1,0 +1,3 @@
+D:/GithubFiles/ComputerGraphics/Lab4_MatrixTransformations/Builds/CMakeFiles/Lab.dir
+D:/GithubFiles/ComputerGraphics/Lab4_MatrixTransformations/Builds/CMakeFiles/ALL_BUILD.dir
+D:/GithubFiles/ComputerGraphics/Lab4_MatrixTransformations/Builds/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,5 @@
+﻿  Automatic MOC for target Lab
+  BasicWidget.cpp
+D:\GithubFiles\ComputerGraphics\Lab4_MatrixTransformations\BasicWidget.cpp(7): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\GithubFiles\ComputerGraphics\Lab4_MatrixTransformations\BasicWidget.cpp(17): warning C4305: 'argument': truncation from 'double' to 'float'
+  Lab.vcxproj -> D:\GithubFiles\ComputerGraphics\Lab4_MatrixTransformations\Builds\Debug\Lab.exe
