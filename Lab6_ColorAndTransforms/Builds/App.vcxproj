@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1E3AC656-D79B-372B-8FEF-06E05C2425F9}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>App</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">App.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">App</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">App.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">App</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">App.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">App</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">App.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">App</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\App_autogen\include_Debug;D:\QT\5.14.0\msvc2017\include;D:\QT\5.14.0\msvc2017\include\QtWidgets;D:\QT\5.14.0\msvc2017\include\QtGui;D:\QT\5.14.0\msvc2017\include\QtANGLE;D:\QT\5.14.0\msvc2017\include\QtCore;D:\QT\5.14.0\msvc2017\.\mkspecs\win32-msvc;D:\QT\5.14.0\msvc2017\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\App_autogen\include_Debug;D:\QT\5.14.0\msvc2017\include;D:\QT\5.14.0\msvc2017\include\QtWidgets;D:\QT\5.14.0\msvc2017\include\QtGui;D:\QT\5.14.0\msvc2017\include\QtANGLE;D:\QT\5.14.0\msvc2017\include\QtCore;D:\QT\5.14.0\msvc2017\.\mkspecs\win32-msvc;D:\QT\5.14.0\msvc2017\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\App_autogen\include_Debug;D:\QT\5.14.0\msvc2017\include;D:\QT\5.14.0\msvc2017\include\QtWidgets;D:\QT\5.14.0\msvc2017\include\QtGui;D:\QT\5.14.0\msvc2017\include\QtANGLE;D:\QT\5.14.0\msvc2017\include\QtCore;D:\QT\5.14.0\msvc2017\.\mkspecs\win32-msvc;D:\QT\5.14.0\msvc2017\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target App</Message>
+      <Command>setlocal
+cd D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/CMakeFiles/App_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/QT/5.14.0/msvc2017/bin/Qt5Cored.dll D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/QT/5.14.0/msvc2017/bin/Qt5Guid.dll D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/QT/5.14.0/msvc2017/bin/Qt5Widgetsd.dll D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/QT/5.14.0/msvc2017/bin/Qt5OpenGLd.dll D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\QT\5.14.0\msvc2017\lib\Qt5OpenGLd.lib;D:\QT\5.14.0\msvc2017\lib\Qt5Widgetsd.lib;D:\QT\5.14.0\msvc2017\lib\Qt5Guid.lib;D:\QT\5.14.0\msvc2017\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/Debug/App.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/Debug/App.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\App_autogen\include_Release;D:\QT\5.14.0\msvc2017\include;D:\QT\5.14.0\msvc2017\include\QtWidgets;D:\QT\5.14.0\msvc2017\include\QtGui;D:\QT\5.14.0\msvc2017\include\QtANGLE;D:\QT\5.14.0\msvc2017\include\QtCore;D:\QT\5.14.0\msvc2017\.\mkspecs\win32-msvc;D:\QT\5.14.0\msvc2017\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\App_autogen\include_Release;D:\QT\5.14.0\msvc2017\include;D:\QT\5.14.0\msvc2017\include\QtWidgets;D:\QT\5.14.0\msvc2017\include\QtGui;D:\QT\5.14.0\msvc2017\include\QtANGLE;D:\QT\5.14.0\msvc2017\include\QtCore;D:\QT\5.14.0\msvc2017\.\mkspecs\win32-msvc;D:\QT\5.14.0\msvc2017\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\App_autogen\include_Release;D:\QT\5.14.0\msvc2017\include;D:\QT\5.14.0\msvc2017\include\QtWidgets;D:\QT\5.14.0\msvc2017\include\QtGui;D:\QT\5.14.0\msvc2017\include\QtANGLE;D:\QT\5.14.0\msvc2017\include\QtCore;D:\QT\5.14.0\msvc2017\.\mkspecs\win32-msvc;D:\QT\5.14.0\msvc2017\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target App</Message>
+      <Command>setlocal
+cd D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/CMakeFiles/App_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/QT/5.14.0/msvc2017/bin/Qt5Core.dll D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/QT/5.14.0/msvc2017/bin/Qt5Gui.dll D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/QT/5.14.0/msvc2017/bin/Qt5Widgets.dll D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/QT/5.14.0/msvc2017/bin/Qt5OpenGL.dll D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\QT\5.14.0\msvc2017\lib\Qt5OpenGL.lib;D:\QT\5.14.0\msvc2017\lib\Qt5Widgets.lib;D:\QT\5.14.0\msvc2017\lib\Qt5Gui.lib;D:\QT\5.14.0\msvc2017\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/Release/App.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/Release/App.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\App_autogen\include_MinSizeRel;D:\QT\5.14.0\msvc2017\include;D:\QT\5.14.0\msvc2017\include\QtWidgets;D:\QT\5.14.0\msvc2017\include\QtGui;D:\QT\5.14.0\msvc2017\include\QtANGLE;D:\QT\5.14.0\msvc2017\include\QtCore;D:\QT\5.14.0\msvc2017\.\mkspecs\win32-msvc;D:\QT\5.14.0\msvc2017\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\App_autogen\include_MinSizeRel;D:\QT\5.14.0\msvc2017\include;D:\QT\5.14.0\msvc2017\include\QtWidgets;D:\QT\5.14.0\msvc2017\include\QtGui;D:\QT\5.14.0\msvc2017\include\QtANGLE;D:\QT\5.14.0\msvc2017\include\QtCore;D:\QT\5.14.0\msvc2017\.\mkspecs\win32-msvc;D:\QT\5.14.0\msvc2017\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\App_autogen\include_MinSizeRel;D:\QT\5.14.0\msvc2017\include;D:\QT\5.14.0\msvc2017\include\QtWidgets;D:\QT\5.14.0\msvc2017\include\QtGui;D:\QT\5.14.0\msvc2017\include\QtANGLE;D:\QT\5.14.0\msvc2017\include\QtCore;D:\QT\5.14.0\msvc2017\.\mkspecs\win32-msvc;D:\QT\5.14.0\msvc2017\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target App</Message>
+      <Command>setlocal
+cd D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/CMakeFiles/App_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/QT/5.14.0/msvc2017/bin/Qt5Core.dll D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/QT/5.14.0/msvc2017/bin/Qt5Gui.dll D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/QT/5.14.0/msvc2017/bin/Qt5Widgets.dll D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/QT/5.14.0/msvc2017/bin/Qt5OpenGL.dll D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\QT\5.14.0\msvc2017\lib\Qt5OpenGL.lib;D:\QT\5.14.0\msvc2017\lib\Qt5Widgets.lib;D:\QT\5.14.0\msvc2017\lib\Qt5Gui.lib;D:\QT\5.14.0\msvc2017\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/MinSizeRel/App.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/MinSizeRel/App.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\App_autogen\include_RelWithDebInfo;D:\QT\5.14.0\msvc2017\include;D:\QT\5.14.0\msvc2017\include\QtWidgets;D:\QT\5.14.0\msvc2017\include\QtGui;D:\QT\5.14.0\msvc2017\include\QtANGLE;D:\QT\5.14.0\msvc2017\include\QtCore;D:\QT\5.14.0\msvc2017\.\mkspecs\win32-msvc;D:\QT\5.14.0\msvc2017\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\App_autogen\include_RelWithDebInfo;D:\QT\5.14.0\msvc2017\include;D:\QT\5.14.0\msvc2017\include\QtWidgets;D:\QT\5.14.0\msvc2017\include\QtGui;D:\QT\5.14.0\msvc2017\include\QtANGLE;D:\QT\5.14.0\msvc2017\include\QtCore;D:\QT\5.14.0\msvc2017\.\mkspecs\win32-msvc;D:\QT\5.14.0\msvc2017\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\App_autogen\include_RelWithDebInfo;D:\QT\5.14.0\msvc2017\include;D:\QT\5.14.0\msvc2017\include\QtWidgets;D:\QT\5.14.0\msvc2017\include\QtGui;D:\QT\5.14.0\msvc2017\include\QtANGLE;D:\QT\5.14.0\msvc2017\include\QtCore;D:\QT\5.14.0\msvc2017\.\mkspecs\win32-msvc;D:\QT\5.14.0\msvc2017\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target App</Message>
+      <Command>setlocal
+cd D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/CMakeFiles/App_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/QT/5.14.0/msvc2017/bin/Qt5Core.dll D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/QT/5.14.0/msvc2017/bin/Qt5Gui.dll D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/QT/5.14.0/msvc2017/bin/Qt5Widgets.dll D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/QT/5.14.0/msvc2017/bin/Qt5OpenGL.dll D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\QT\5.14.0\msvc2017\lib\Qt5OpenGL.lib;D:\QT\5.14.0\msvc2017\lib\Qt5Widgets.lib;D:\QT\5.14.0\msvc2017\lib\Qt5Gui.lib;D:\QT\5.14.0\msvc2017\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/RelWithDebInfo/App.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/RelWithDebInfo/App.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms -BD:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds --check-stamp-file D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\3.16.2\CMakeCCompiler.cmake;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\3.16.2\CMakeSystem.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5\Qt5Config.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms -BD:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds --check-stamp-file D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\3.16.2\CMakeCCompiler.cmake;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\3.16.2\CMakeSystem.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5\Qt5Config.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms -BD:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds --check-stamp-file D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\3.16.2\CMakeCCompiler.cmake;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\3.16.2\CMakeSystem.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5\Qt5Config.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms -BD:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds --check-stamp-file D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\3.16.2\CMakeCCompiler.cmake;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\3.16.2\CMakeSystem.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5\Qt5Config.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\QT\5.14.0\msvc2017\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\App_autogen\mocs_compilation.cpp" />
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\BasicWidget.cpp" />
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\App.cpp" />
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\GithubFiles\ComputerGraphics\Lab6_ColorAndTransforms\Builds\ZERO_CHECK.vcxproj">
+      <Project>{7CD9D68A-4586-3EFD-9FFE-F46354F7FDD9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,3 @@
+D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/CMakeFiles/App.dir
+D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/CMakeFiles/ALL_BUILD.dir
+D:/GithubFiles/ComputerGraphics/Lab6_ColorAndTransforms/Builds/CMakeFiles/ZERO_CHECK.dir
