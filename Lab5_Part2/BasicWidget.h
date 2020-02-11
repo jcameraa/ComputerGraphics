@@ -30,6 +30,9 @@ protected:
   void resizeGL(int w, int h) override;
   void paintGL() override;
 
+  //the number of verticies to draw
+  int numOfVertx = 6;
+
 #if USE_QT_OPENGL
   QOpenGLBuffer vbo_;
   QOpenGLBuffer ibo_;
