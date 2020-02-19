@@ -8,8 +8,10 @@
 
 // Lab application
 #include "Application.h"
+#include "Render.h"
 
 int main(int argc, char** argv) {
+  Render Test("bunny");
   QApplication a(argc, argv);
   QString appDir = a.applicationDirPath();
   QDir::setCurrent(appDir);

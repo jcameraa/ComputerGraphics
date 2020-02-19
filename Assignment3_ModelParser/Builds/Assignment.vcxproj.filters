@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Assignment3_ModelParser\Builds\Assignment_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Assignment3_ModelParser\BasicWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Assignment3_ModelParser\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Assignment3_ModelParser\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GithubFiles\ComputerGraphics\Assignment3_ModelParser\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AC8E39B2-6A25-381F-95C9-780C0AABE9CC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

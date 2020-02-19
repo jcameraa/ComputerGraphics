@@ -3,6 +3,7 @@
 #include <QtGui>
 #include <QtWidgets>
 #include <QtOpenGL>
+#include "Render.h"
 
 /**
  * This is just a basic OpenGL widget that will allow a change of background color.

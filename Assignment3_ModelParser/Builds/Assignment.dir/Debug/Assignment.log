@@ -1,0 +1,4 @@
+﻿  Automatic MOC for target Assignment
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall Render::Render(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0Render@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall Render::~Render(void)" (??1Render@@QAE@XZ) referenced in function _main
+D:\GithubFiles\ComputerGraphics\Assignment3_ModelParser\Builds\Debug\Assignment.exe : fatal error LNK1120: 2 unresolved externals

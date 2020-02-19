@@ -5,6 +5,7 @@
 BasicWidget::BasicWidget(QWidget* parent) : QOpenGLWidget(parent)
 {
   setFocusPolicy(Qt::StrongFocus);
+
 }
 
 BasicWidget::~BasicWidget()
