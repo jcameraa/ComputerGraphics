@@ -41,6 +41,9 @@ protected:
 public:
   BasicWidget(QWidget* parent=nullptr);
   virtual ~BasicWidget();
+  QMatrix4x4 mvp;
+
+
   
   // Make sure we have some size that makes sense.
   QSize sizeHint() const {return QSize(800,600);}

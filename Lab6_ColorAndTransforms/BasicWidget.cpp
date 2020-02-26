@@ -30,16 +30,18 @@ QString BasicWidget::vertexShaderString() const
     "layout(location = 0) in vec3 position;\n"
     "layout(location = 1) in vec4 color;\n"
 
-    "uniform mat4 modelMatrix;\n"
-    "uniform mat4 viewMatrix;\n"
-    "uniform mat4 projectionMatrix;\n"
+   // "uniform mat4 modelMatrix;\n"
+   // "uniform mat4 viewMatrix;\n"
+   // "uniform mat4 projectionMatrix;\n"
     
     "out vec4 vertColor;\n"
+
+	 "uniform mat4 MVP;\n"
 
     "void main()\n"
     "{\n"
     // TODO: gl_Position must be updated!
-    "  gl_Position = vec4(position, 1.0);\n"
+    "  gl_Position = MVP * vec4(position,1);\n"
     // END TODO
     "  vertColor = color;\n"
     "}\n";
@@ -195,8 +197,23 @@ void BasicWidget::initializeGL()
 void BasicWidget::resizeGL(int w, int h)
 {
   glViewport(0, 0, w, h);
-  // TODO:  Set up the model, view, and projection matrices
-  // END TODO
+
+  QMatrix4x4 Projection;
+
+  Projection.perspective(qDegreesToRadians(90.0f), (float)(w / (float)h), 0.1f, 100.0f);
+
+  QMatrix4x4 View;
+  View.lookAt(
+	  QVector3D(0, 0, 1),
+	  QVector3D(0, 0, 0),
+	  QVector3D(0, -1, 0)
+  );
+
+  QMatrix4x4 Model;
+  
+  Model.setToIdentity();
+
+ mvp = Projection * View * Model;
 }
 
 void BasicWidget::paintGL()
@@ -208,6 +225,8 @@ void BasicWidget::paintGL()
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
   shaderProgram_.bind();
+  GLuint MAtrixID = shaderProgram_.uniformLocation("MVP");
+  shaderProgram_.setUniformValue(MAtrixID, mvp);
   vao_.bind();
   glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, 0);
   vao_.release();
