@@ -1,8 +1,7 @@
 #version 330
 layout(location = 0) in vec3 position;
 
-// TODO:  Add an input for texture coordinates
-in vec2 textureCoords; 
+in vec2 textureCoords;
 
 // We now have our camera system set up.
 uniform mat4 modelMatrix;
@@ -11,7 +10,6 @@ uniform mat4 projectionMatrix;
 
 // We define a new output vec2 for our texture coorinates.
 out vec2 texCoords;
-
 
 void main()
 {

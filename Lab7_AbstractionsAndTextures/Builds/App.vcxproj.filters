@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Lab7_AbstractionsAndTextures\Builds\App_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Lab7_AbstractionsAndTextures\App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Lab7_AbstractionsAndTextures\BasicWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Lab7_AbstractionsAndTextures\Renderable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Lab7_AbstractionsAndTextures\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GithubFiles\ComputerGraphics\Lab7_AbstractionsAndTextures\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E6DE76B6-EAF8-3EF2-BCE1-9E602EEC87BF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

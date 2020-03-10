@@ -1,0 +1,14 @@
+﻿  Automatic MOC for target App
+  Building Custom Rule D:/GithubFiles/ComputerGraphics/Lab7_AbstractionsAndTextures/CMakeLists.txt
+  mocs_compilation.cpp
+  App.cpp
+  BasicWidget.cpp
+D:\GithubFiles\ComputerGraphics\Lab7_AbstractionsAndTextures\BasicWidget.cpp(48): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\GithubFiles\ComputerGraphics\Lab7_AbstractionsAndTextures\BasicWidget.cpp(49): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\GithubFiles\ComputerGraphics\Lab7_AbstractionsAndTextures\BasicWidget.cpp(50): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\GithubFiles\ComputerGraphics\Lab7_AbstractionsAndTextures\BasicWidget.cpp(51): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\GithubFiles\ComputerGraphics\Lab7_AbstractionsAndTextures\BasicWidget.cpp(99): warning C4305: 'argument': truncation from 'double' to 'float'
+  Renderable.cpp
+  main.cpp
+  Generating Code...
+  App.vcxproj -> D:\GithubFiles\ComputerGraphics\Lab7_AbstractionsAndTextures\Builds\Debug\App.exe
