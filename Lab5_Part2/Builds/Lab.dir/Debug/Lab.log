@@ -1,3 +1,8 @@
 ﻿  Automatic MOC for target Lab
+  mocs_compilation.cpp
   BasicWidget.cpp
+  Lab.cpp
+  main.cpp
+  Generating Code...
+  LINK : D:\GithubFiles\ComputerGraphics\Lab5_Part2\Builds\Debug\Lab.exe not found or not built by the last incremental link; performing full link
   Lab.vcxproj -> D:\GithubFiles\ComputerGraphics\Lab5_Part2\Builds\Debug\Lab.exe

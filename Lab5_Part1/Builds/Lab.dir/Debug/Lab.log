@@ -1,6 +1,6 @@
 ﻿  Automatic MOC for target Lab
-  BasicWidget.cpp
   mocs_compilation.cpp
+  BasicWidget.cpp
   Lab.cpp
   main.cpp
   Generating Code...
