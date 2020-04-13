@@ -1,0 +1,13 @@
+﻿  Automatic MOC for target App
+  Building Custom Rule D:/GithubFiles/ComputerGraphics/Lab8_CameraAndIllumination/CMakeLists.txt
+  mocs_compilation.cpp
+  App.cpp
+  BasicWidget.cpp
+D:\GithubFiles\ComputerGraphics\Lab8_CameraAndIllumination\BasicWidget.cpp(152): warning C4305: 'argument': truncation from 'double' to 'float'
+  Renderable.cpp
+  UnitQuad.cpp
+  Camera.cpp
+D:\GithubFiles\ComputerGraphics\Lab8_CameraAndIllumination\Camera.cpp(68): warning C4305: 'argument': truncation from 'double' to 'float'
+  main.cpp
+  Generating Code...
+  App.vcxproj -> D:\GithubFiles\ComputerGraphics\Lab8_CameraAndIllumination\Builds\Debug\App.exe
