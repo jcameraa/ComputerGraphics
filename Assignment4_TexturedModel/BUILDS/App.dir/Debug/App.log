@@ -1,0 +1,9 @@
+﻿  Automatic MOC for target App
+  BasicWidget.cpp
+Application.obj : error LNK2001: unresolved external symbol "public: virtual struct QMetaObject const * __thiscall Application::metaObject(void)const " (?metaObject@Application@@UBEPBUQMetaObject@@XZ)
+Application.obj : error LNK2001: unresolved external symbol "public: virtual void * __thiscall Application::qt_metacast(char const *)" (?qt_metacast@Application@@UAEPAXPBD@Z)
+Application.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall Application::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@Application@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+BasicWidget.obj : error LNK2001: unresolved external symbol "public: virtual struct QMetaObject const * __thiscall BasicWidget::metaObject(void)const " (?metaObject@BasicWidget@@UBEPBUQMetaObject@@XZ)
+BasicWidget.obj : error LNK2001: unresolved external symbol "public: virtual void * __thiscall BasicWidget::qt_metacast(char const *)" (?qt_metacast@BasicWidget@@UAEPAXPBD@Z)
+BasicWidget.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall BasicWidget::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@BasicWidget@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+D:\GithubFiles\ComputerGraphics\Assignment4_TexturedModel\BUILDS\Debug\App.exe : fatal error LNK1120: 6 unresolved externals

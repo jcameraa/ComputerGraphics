@@ -2,6 +2,7 @@
 
 #include <QtGui/QMatrix4x4>
 #include <QtGui/QVector3D>
+#include <iostream>
 
 class Camera
 {
@@ -22,6 +23,8 @@ public:
 	void setPosition(const QVector3D& position);
 	QVector3D position() const;
 	void translateCamera(const QVector3D& delta);
+	void rotateCamera(float yaw, float pitch);
+	void zoomCamera(float x, float y);
 
 	// Move our gaze
 	void setGazeVector(const QVector3D& gaze);
