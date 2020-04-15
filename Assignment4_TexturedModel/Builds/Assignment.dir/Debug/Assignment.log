@@ -1,0 +1,4 @@
+﻿  Automatic MOC for target Assignment
+  BasicWidget.cpp
+D:\GithubFiles\ComputerGraphics\Assignment4_TexturedModel\BasicWidget.cpp(95): warning C4305: 'argument': truncation from 'double' to 'float'
+  Assignment.vcxproj -> D:\GithubFiles\ComputerGraphics\Assignment4_TexturedModel\Builds\Debug\Assignment.exe

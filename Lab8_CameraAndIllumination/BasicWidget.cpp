@@ -66,16 +66,13 @@ void BasicWidget::mouseMoveEvent(QMouseEvent* mouseEvent)
 
 	lastMouseLoc_ = mouseEvent->pos();
 	if (mouseAction_ == Rotate) {
-		// TODO:  Implement rotating the camera    
 		camera_.rotateCamera(delta.x(), delta.y());
 
 
 	}
 	else if (mouseAction_ == Zoom) {
-		// TODO:  Implement zoom by moving the camera
 
 		camera_.translateCamera(zoomTo);
-		// Zooming is moving along the gaze direction by some amount.
 	}
 	update();
 }
@@ -91,7 +88,6 @@ void BasicWidget::initializeGL()
 	initializeOpenGLFunctions();
 
 	qDebug() << QDir::currentPath();
-	// TODO:  You may have to change these paths.
 	QString brickTex = "../../brick.ppm";
 	QString grassTex = "../../grass.ppm";
 
@@ -166,7 +162,6 @@ void BasicWidget::paintGL()
 
 	for (auto renderable : renderables_) {
 		renderable->update(msSinceRestart);
-		// TODO:  Understand that the camera is now governing the view and projection matrices
 		renderable->draw(world_, camera_.getViewMatrix(), camera_.getProjectionMatrix());
 	}
 	update();

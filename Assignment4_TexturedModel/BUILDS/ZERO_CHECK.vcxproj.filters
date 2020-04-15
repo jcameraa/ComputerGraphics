@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\GithubFiles\ComputerGraphics\Assignment4_TexturedModel\BUILDS\CMakeFiles\601041404b4fb9a0822e575d6473d246\generate.stamp.rule">
+    <CustomBuild Include="D:\GithubFiles\ComputerGraphics\Assignment4_TexturedModel\Builds\CMakeFiles\5b5d8f4bf5c1b6330d4ce1204d644ff0\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{1CDDE2BB-BD99-3D33-81E1-65D2075E5536}</UniqueIdentifier>
+      <UniqueIdentifier>{EAE8D918-4004-332E-9318-4F143DE21B7C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
