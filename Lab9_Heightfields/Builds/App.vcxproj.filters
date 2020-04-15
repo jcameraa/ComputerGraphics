@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Lab9_Heightfields\Builds\App_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Lab9_Heightfields\App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Lab9_Heightfields\BasicWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Lab9_Heightfields\Renderable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Lab9_Heightfields\TerrainQuad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Lab9_Heightfields\UnitQuad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Lab9_Heightfields\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GithubFiles\ComputerGraphics\Lab9_Heightfields\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GithubFiles\ComputerGraphics\Lab9_Heightfields\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F1EE59D4-F4C7-34D2-9013-9BDB7D909C0D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
