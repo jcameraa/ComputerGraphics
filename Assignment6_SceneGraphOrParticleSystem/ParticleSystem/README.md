@@ -3,11 +3,13 @@
 *TODO*: Please edit the following information in your assignment
 
 * Name and partners name(At most 1 partner for this Assignment): 
+
+Jamie Camera and Cameron Perry 
+
 * How many hours did it take you to complete this Assignment? 
+8 
 * Did you collaborate or share ideas with any other students/TAs/Professors? 
 * Did you use any external resources? 
-  * (tbd if any)
-  * (tbd if any)
   * (tbd if any)
 * (Optional) What was the most interesting part of the assignment? How would you improve this assignment?
   
@@ -106,6 +108,11 @@ public:
 
 In a few sentences why is our approach of keeping a pointer to the
 geometry to be drawn an optimization? Note: You can learn more about [instancing](https://learnopengl.com/Advanced-OpenGL/Instancing).
+
+The system (at least what it was meant to be) is efficent because it does not make the machine load in the 
+same object more than once. It will only duplicate something that has already been made, which is extremly less
+intensive than reading in a file every time. Instancing makes it so that we draw many models at once, and only use
+those rendered models. 
   
 **Answer here**: *Your answer here*
   
