@@ -10,8 +10,12 @@ Jamie Camera and Cameron Perry
 8 
 * Did you collaborate or share ideas with any other students/TAs/Professors? 
 * Did you use any external resources? 
+https://www.turbosquid.com/FullPreview/Index.cfm/ID/1530460
   * (tbd if any)
 * (Optional) What was the most interesting part of the assignment? How would you improve this assignment?
+
+This is an addional note, but we were using a .obj we found online, but since it was over 100MB we were not 
+able to push it to github. The above turbosquid link is what we were using. 
   
 ## Description
 
